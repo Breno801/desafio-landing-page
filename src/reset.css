@@ -1,0 +1,37 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+
+ul{ 
+    list-style: none;
+}
+
+:root{ 
+   --max-width: 1440px;
+   --min-width: 375px;
+}
+html { 
+    width: 100%;
+    height: 100%;
+  background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%) no-repeat;
+}
+@media(max-width:1130px){
+    html{
+        background: url(../images/bg-mobile.svg) hsl(257, 40%, 49%) no-repeat;
+        background-size: cover;
+    }
+}
+
+body{ 
+    font-family: "poppins", arial, sans-serif;
+}
+a{ 
+    font-family: "open sans", arial, sans-serif;
+}
